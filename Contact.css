@@ -1,0 +1,43 @@
+
+
+.contact{
+    background-color: gray;
+    background-size: cover;
+    min-height: 99vh;
+    /*padding: 1rem;*/
+    text-align: center;
+}
+
+.section > h1 {
+    font-size: 3rem;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+}
+
+.contact-pro {
+    display: flex;
+    max-width: 800px;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+.contact-pro>img {
+    max-height: 250px;
+    width: 300px;
+    max-width: 90%;
+    animation: animateimage 1s linear;
+}
+
+
+@keyframes animateimage {
+    from {
+        transform: translateY(-15px);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

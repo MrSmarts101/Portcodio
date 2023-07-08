@@ -1,0 +1,26 @@
+.home-main {
+    background: url('../images/eusomii-interview-3.png') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.main-content {
+    color: azure;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    /* moves p text left by 0.5 and moves up by 0 and right and bottom as 0*/
+}
+
